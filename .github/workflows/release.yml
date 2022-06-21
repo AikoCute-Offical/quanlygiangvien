@@ -1,0 +1,38 @@
+# create a new relase from folder bin
+name: Create Relase
+
+on 
+  push:
+    branches:
+      - master: master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    #create ZIP from bin folders
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Create ZIP
+        #create ZIP from bin/debug folder
+        run: |
+          cd bin/debug
+          zip -r ../../../debug.zip .
+          cd ../../../
+        #create ZIP from bin/release folder
+        run: |
+          cd bin/release
+          zip -r ../../../release.zip .
+          cd ../../../
+
+      - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master
+        BRANCH: gh-pages
+        FOLDER: build
+    
+      
