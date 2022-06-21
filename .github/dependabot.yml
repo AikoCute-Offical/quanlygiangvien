@@ -2,7 +2,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "csharp-plugins/csharp-plugins/version"
+  - package-ecosystem: "csharp"
     directory: "/"
     schedule:
       interval: "daily"
