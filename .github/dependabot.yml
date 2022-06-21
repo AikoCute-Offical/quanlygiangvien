@@ -2,7 +2,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gomod"
+  - package-ecosystem: "csharp-plugins/csharp-plugins/version"
     directory: "/"
     schedule:
       interval: "daily"
