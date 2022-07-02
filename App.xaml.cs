@@ -13,6 +13,5 @@ namespace QUANLYGIANGVIEN
     /// </summary>
     public partial class App : Application
     {
-        
     }
 }

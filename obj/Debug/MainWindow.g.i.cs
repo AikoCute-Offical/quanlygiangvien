@@ -178,7 +178,7 @@ namespace QUANLYGIANGVIEN {
             this.rdSounds = ((System.Windows.Controls.RadioButton)(target));
             
             #line 58 "..\..\MainWindow.xaml"
-            this.rdSounds.Click += new System.Windows.RoutedEventHandler(this.rdSounds_Click);
+            this.rdSounds.Click += new System.Windows.RoutedEventHandler(this.rdgiangvien_Click);
             
             #line default
             #line hidden
@@ -187,7 +187,7 @@ namespace QUANLYGIANGVIEN {
             this.rdNotes = ((System.Windows.Controls.RadioButton)(target));
             
             #line 59 "..\..\MainWindow.xaml"
-            this.rdNotes.Click += new System.Windows.RoutedEventHandler(this.rdNotes_Click);
+            this.rdNotes.Click += new System.Windows.RoutedEventHandler(this.rdmonhoc_Click);
             
             #line default
             #line hidden
@@ -196,7 +196,7 @@ namespace QUANLYGIANGVIEN {
             this.rdPayment = ((System.Windows.Controls.RadioButton)(target));
             
             #line 60 "..\..\MainWindow.xaml"
-            this.rdPayment.Click += new System.Windows.RoutedEventHandler(this.rdPayment_Click);
+            this.rdPayment.Click += new System.Windows.RoutedEventHandler(this.rdkhoa_Click);
             
             #line default
             #line hidden

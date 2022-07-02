@@ -53,24 +53,24 @@ namespace QUANLYGIANGVIEN
             PagesNavigation.Navigate(new System.Uri("Pages/Home.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        private void rdSounds_Click(object sender, RoutedEventArgs e)
+        private void rdgiangvien_Click(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("Pages/GiangVien.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        private void rdNotes_Click(object sender, RoutedEventArgs e)
+        private void rdmonhoc_Click(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("Pages/monhoc.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        private void rdPayment_Click(object sender, RoutedEventArgs e)
+        private void rdkhoa_Click(object sender, RoutedEventArgs e)
         {
             PagesNavigation.Navigate(new System.Uri("Pages/khoa.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void github_StackPanel(object sender, RoutedEventArgs e)
         {
-            // https://github.com/dopaemon
+            // https://github.com/aikocute-offical
         }
     }
 }

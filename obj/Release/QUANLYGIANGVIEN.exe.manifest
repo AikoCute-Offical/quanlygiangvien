@@ -277,17 +277,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8IsIFdEj9/pmRwT9ebK772t5I0C/aGzn8nnMSvoiHdc=</dsig:DigestValue>
+        <dsig:DigestValue>hJW5Wnoy7Wv3ijNfEP/8Zkir9zqT6ucx5b1j4KSNqDU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="QUANLYGIANGVIEN.exe.config" size="1879">
+  <file name="QUANLYGIANGVIEN.exe.config" size="1870">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6pWx7HVRcQexeWO9CuZ05MtcYih6mZaSxeFeh8Cgigo=</dsig:DigestValue>
+      <dsig:DigestValue>z7BvS5ZDxGpkdreaWT1cWCOnkC9M/e9yF+uvxoCmf/g=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
